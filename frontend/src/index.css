@@ -1,1 +1,47 @@
 @import "tailwindcss";
+
+@theme {
+  /* Screens */
+  --breakpoint-mi: 26rem;
+
+  /* Colors (Placeholders for now, haven't come up with a colour scheme) */
+  --color-primary: white;
+  --color-secondary: lightgray;
+  --color-tertiary: black;
+  --color-accent: lightgray;
+  --color-highlight: darkblue;
+}
+
+@layer components {
+  h2 {
+    @apply text-3xl font-semibold;
+  }
+
+  button {
+    @apply border-secondary rounded-full border-2 p-2 font-semibold transition-all duration-200;
+  }
+
+  button:hover {
+    @apply cursor-pointer;
+  }
+
+  input {
+    @apply border-secondary bg-primary rounded-full border-2 p-2 px-3 focus:outline-none;
+  }
+
+  hr {
+    @apply border-secondary w-full border-t-2;
+  }
+
+  a {
+    @apply text-sm text-blue-600 underline;
+  }
+
+  .action-button {
+    @apply bg-tertiary text-accent;
+  }
+
+  .action-button:hover {
+    @apply bg-highlight;
+  }
+}
