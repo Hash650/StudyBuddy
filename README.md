@@ -83,6 +83,13 @@ mvn spring-boot:run # Use ./mvnw spring-boot:run on Windows if needed
 
 ---
 
-## License
 
-This project is licensed under the **MIT License**.
+## License & Usage
+
+This project is licensed under the **Business Source License 1.1 (BUSL-1.1).**
+
+- **View-only access** is permitted for educational and portfolio review purposes.
+- **Commercial use, deployment, modification, or cloning is strictly prohibited.**
+- **No contributions or pull requests will be accepted.**
+
+All rights reserved by the author.
